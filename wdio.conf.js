@@ -28,7 +28,7 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
 
-    maxInstances: 20,
+    maxInstances: 10,
     capabilities: cloneCapabilities(baseCapability, NUM_OF_INSTANCES),
     logLevel: 'warn',
     // logLevels: {
